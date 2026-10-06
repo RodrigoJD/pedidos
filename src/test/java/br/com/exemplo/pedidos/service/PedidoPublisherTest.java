@@ -1,7 +1,8 @@
-package br.com.exemplo.pedidos.messaging.impl;
+package br.com.exemplo.pedidos.service;
 
 import br.com.exemplo.pedidos.config.RabbitConfig;
 import br.com.exemplo.pedidos.model.Pedido;
+import br.com.exemplo.pedidos.service.impl.PedidoPublisher;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

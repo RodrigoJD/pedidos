@@ -1,7 +1,8 @@
-package br.com.exemplo.pedidos.messaging.impl;
+package br.com.exemplo.pedidos.service.impl;
 
-import br.com.exemplo.pedidos.messaging.PedidoPublisher;
+import br.com.exemplo.pedidos.messaging.InMemoryPedidoQueue;
 import br.com.exemplo.pedidos.model.Pedido;
+import br.com.exemplo.pedidos.service.PedidoPublisher;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 

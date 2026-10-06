@@ -1,4 +1,4 @@
-package br.com.exemplo.pedidos.messaging;
+package br.com.exemplo.pedidos.service;
 
 import br.com.exemplo.pedidos.model.Pedido;
 

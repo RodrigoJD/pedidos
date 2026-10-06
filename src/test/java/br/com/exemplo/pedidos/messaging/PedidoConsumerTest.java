@@ -1,9 +1,9 @@
-package br.com.exemplo.pedidos.messaging.impl;
+package br.com.exemplo.pedidos.messaging;
 
 import br.com.exemplo.pedidos.config.RabbitConfig;
 import br.com.exemplo.pedidos.model.Pedido;
 import br.com.exemplo.pedidos.model.StatusPedido;
-import br.com.exemplo.pedidos.service.StatusService;
+import br.com.exemplo.pedidos.service.impl.StatusService;
 import com.rabbitmq.client.Channel;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;

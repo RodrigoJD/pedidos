@@ -1,8 +1,8 @@
-package br.com.exemplo.pedidos.messaging;
+package br.com.exemplo.pedidos.service;
 
 import br.com.exemplo.pedidos.config.RabbitConfig;
-import br.com.exemplo.pedidos.messaging.impl.RabbitPedidoPublisher;
 import br.com.exemplo.pedidos.model.Pedido;
+import br.com.exemplo.pedidos.service.impl.RabbitPedidoPublisher;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -17,7 +17,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
-class PedidoPublisherTest {
+class RabbitPedidoPublisherTest {
 
     @Mock private RabbitTemplate rabbitTemplate;
     @Mock private RabbitConfig rabbitConfig;

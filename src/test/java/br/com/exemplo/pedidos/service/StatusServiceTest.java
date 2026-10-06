@@ -1,6 +1,7 @@
 package br.com.exemplo.pedidos.service;
 
 import br.com.exemplo.pedidos.model.StatusAtual;
+import br.com.exemplo.pedidos.service.impl.StatusService;
 import org.junit.jupiter.api.Test;
 
 import java.util.UUID;

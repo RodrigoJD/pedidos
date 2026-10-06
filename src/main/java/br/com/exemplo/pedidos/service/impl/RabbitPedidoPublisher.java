@@ -1,22 +1,24 @@
-package br.com.exemplo.pedidos.messaging.impl;
+package br.com.exemplo.pedidos.service.impl;
 
 import br.com.exemplo.pedidos.config.RabbitConfig;
 import br.com.exemplo.pedidos.model.Pedido;
+import br.com.exemplo.pedidos.service.PedidoPublisher;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 @Service
 @Profile("rabbit")
-public class PedidoPublisher {
+public class RabbitPedidoPublisher implements PedidoPublisher {
     private final RabbitTemplate rabbitTemplate;
     private final RabbitConfig rabbitConfig;
 
-    public PedidoPublisher(RabbitTemplate rabbitTemplate, RabbitConfig rabbitConfig) {
+    public RabbitPedidoPublisher(RabbitTemplate rabbitTemplate, RabbitConfig rabbitConfig) {
         this.rabbitTemplate = rabbitTemplate;
         this.rabbitConfig = rabbitConfig;
     }
 
+    @Override
     public void publicar(Pedido pedido) {
         rabbitTemplate.convertAndSend(rabbitConfig.entrada(), pedido);
     }

@@ -1,7 +1,7 @@
-package br.com.exemplo.pedidos.messaging.impl;
+package br.com.exemplo.pedidos.messaging;
 
 import br.com.exemplo.pedidos.model.Pedido;
-import br.com.exemplo.pedidos.service.StatusService;
+import br.com.exemplo.pedidos.service.impl.StatusService;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDateTime;

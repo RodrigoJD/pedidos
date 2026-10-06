@@ -1,4 +1,4 @@
-package br.com.exemplo.pedidos.service;
+package br.com.exemplo.pedidos.service.impl;
 
 import br.com.exemplo.pedidos.model.StatusAtual;
 import org.springframework.stereotype.Service;

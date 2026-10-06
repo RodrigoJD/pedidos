@@ -1,8 +1,8 @@
-package br.com.exemplo.pedidos.messaging.impl;
+package br.com.exemplo.pedidos.messaging;
 
 import br.com.exemplo.pedidos.exception.ProcessamentoException;
 import br.com.exemplo.pedidos.model.Pedido;
-import br.com.exemplo.pedidos.service.StatusService;
+import br.com.exemplo.pedidos.service.impl.StatusService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

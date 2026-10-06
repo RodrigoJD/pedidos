@@ -1,4 +1,4 @@
-package br.com.exemplo.pedidos.messaging.impl;
+package br.com.exemplo.pedidos.messaging;
 
 import br.com.exemplo.pedidos.model.Pedido;
 import org.junit.jupiter.api.Test;

@@ -129,7 +129,7 @@ sem requeue e encaminhado para a DLQ.
 
 A aplicação possui testes unitários para os principais métodos e fluxos:
 
-- `PedidoPublisherTest`: verifica a publicação do pedido na fila de entrada.
+- `RabbitPedidoPublisherTest`: verifica a publicação do pedido na fila de entrada.
 - `StatusServiceTest`: verifica atualização e consulta de status.
 - `PedidoConsumerTest`: verifica processamento com sucesso, falha com publicação no status de falha + `basicReject` para DLQ e interrupção com `basicNack`/requeue.
 - `PedidoControllerTest`: verifica criação de pedidos, publicação e consulta de status.

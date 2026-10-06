@@ -1,5 +1,0 @@
-# Created at 2026-10-06T12:22:06.594
-Boot Manifest-JAR contains absolute paths in classpath 'E:\Programacao\Java\projetosGit\pedidos\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-'other' has different root
-

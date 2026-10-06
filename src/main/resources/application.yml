@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    default: local
+  rabbitmq:
+    host: ${RABBITMQ_HOST:localhost}
+    port: ${RABBITMQ_PORT:5672}
+    username: ${RABBITMQ_USERNAME:guest}
+    password: ${RABBITMQ_PASSWORD:guest}
+    virtual-host: ${RABBITMQ_VHOST:/}
+    listener:
+      simple:
+        acknowledge-mode: manual
+        concurrency: 2
+        max-concurrency: 4
+
+server:
+  port: 8080
+
+app:
+  pedidos:
+    suffix: ${PEDIDOS_SUFFIX:rodrigo}

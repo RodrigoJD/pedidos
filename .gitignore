@@ -1,0 +1,87 @@
+# =========================================================================
+# Java Core
+# =========================================================================
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+# Package Files (Uncomment if you do not want to commit compiled archives)
+# *.jar
+# *.war
+# *.nar
+# *.ear
+# *.zip
+
+# =========================================================================
+# Build Tools
+# =========================================================================
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# Avoid ignoring the maven wrapper jar file if you use it
+# !.mvn/wrapper/maven-wrapper.jar
+
+### Gradle ###
+.gradle/
+build/
+bin/
+/out/
+.gradletasknamecache
+gradle-app.setting
+# Avoid ignoring the Gradle wrapper jar file so team members can build
+!gradle-wrapper.jar
+
+# =========================================================================
+# IDEs and Editors
+# =========================================================================
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+### Eclipse ###
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+.factorypath
+.loadpath
+
+### Visual Studio Code ###
+.vscode/
+*.code-workspace
+
+# =========================================================================
+# Operating System Files
+# =========================================================================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
